@@ -1,10 +1,14 @@
-import { Header } from './components/Header.js'
+import Banner from "./components/Banner"
+import Footer from "./components/Footer"
+import {Header} from "./components/Header"
 
 function App() {
 
   return (
     <div className="App">
-      <Header/>
+      <Header />
+      <Banner />
+      <Footer />
     </div>
   )
 }

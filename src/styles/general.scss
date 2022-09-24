@@ -13,6 +13,25 @@ ul{
     margin: 0;
 }
 
+.Banner{
+    margin-top: 91px;
+    height: 73vh;
+    width: 100%;
+    background-image: url(../assets/bg-content.jpg);
+    background-size: contain;
+}
+
+.Footer{
+    height: 104px;
+    background-color: $blue-main-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    color: $white;
+    font-size: calculateRem(12px);
+}
+
 @font-face {
     font-family: GothamBold;
     src: url(./fonts/Gotham-Bold.woff);

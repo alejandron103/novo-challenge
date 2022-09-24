@@ -1,6 +1,8 @@
 // this is a constants file where we can put the app static texts
 export const CONSTANTS = {
-    USER_NAME: 'USER NAME'
+    USER_NAME: 'USER NAME',
+    ENTERPRISE_NAME : 'NovoPayment Inc',
+    COPYRIGHT: 'All Right Reserved'
 }
 
 const TRADUCTIONS = [

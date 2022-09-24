@@ -32,3 +32,6 @@ Vite is a faster build tool for modern project. Better the improve [https://vite
 
 The testing was implemented using vitest, testing library and jest
 
+## Atomic Design 
+
+The atomic design allows build scalable and maintainable applications. re-use the dynamic components
