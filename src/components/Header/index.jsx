@@ -7,11 +7,12 @@ import '../../styles/components/Header.scss'
 export function Header(){
     const [itemsMenu, setItemsMenu] = useState([])
 
+    async function fetchData(){
+        const fetchedItemsMenu = await getItemsMenu();
+        setItemsMenu(fetchedItemsMenu)
+    }
+
     useEffect(()=>{
-        async function fetchData(){
-          const fetchedItemsMenu = await getItemsMenu();
-          setItemsMenu(fetchedItemsMenu)
-        }
         fetchData();
     }, [])
 
