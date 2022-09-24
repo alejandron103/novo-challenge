@@ -6,7 +6,7 @@ export default function Footer(){
     return <footer className="Footer">
         <img src={IsoTipo} alt="Isotipo footer image left" />
         <p className="copyright">©  
-            <span data-testId="year-copyright"> {currentYear} </span> 
+            <span data-testid="year-copyright"> {currentYear} </span> 
             <span>{CONSTANTS.ENTERPRISE_NAME}. </span>
             <span>{CONSTANTS.COPYRIGHT}</span>
         </p> 

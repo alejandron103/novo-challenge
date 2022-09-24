@@ -6,7 +6,12 @@
 				{
 					"between_cards": [
 						{
-							"lock1": [],
+							"lock1": [
+								{
+									"lock": [],
+									"change_pass": []
+								}
+							],
 							"change_pass1": []
 						}
 					],
@@ -16,7 +21,12 @@
 			],
 			"support": [
 				{
-					"lock": [],
+					"lock": [
+						{
+							"banks": [],
+							"change_pass": []
+						}
+					],
 					"change_pass": []
 				}
 			],
