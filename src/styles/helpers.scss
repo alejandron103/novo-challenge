@@ -1,0 +1,15 @@
+$blue-main-color: #1500A1;
+$white: #FFFFFF;
+$grey: #4E4144;;
+
+$small-screen: 500px;
+$lg-screen: 1220px;
+
+$font-light: 'GothamLight';
+$font-bold: 'GothamBold';
+$font-medium: 'GothamMedium';
+
+@function calculateRem($size) {
+  $remSize: calc($size / 16px);
+  @return #{$remSize}rem;
+}
