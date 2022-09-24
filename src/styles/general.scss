@@ -14,8 +14,7 @@ ul{
 }
 
 .Banner{
-    margin-top: 91px;
-    height: 73vh;
+    height: 71vh;
     width: 100%;
     background-image: url(../assets/bg-content.jpg);
     background-size: contain;
@@ -27,7 +26,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 14%;
+    padding: 0 12%;
     color: $white;
     font-size: calculateRem(12px);
     border-top: 2px solid $blue-light;

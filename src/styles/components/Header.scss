@@ -1,11 +1,11 @@
 @import '../helpers.scss';
 
 .Header{
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-
+    .Logo{
+        fill: $white;
+        font-size: calculateRem(25px);
+        font-family: 'GothamBold';
+    }
     &__top{
         display: flex;
         padding: 0 3%;
