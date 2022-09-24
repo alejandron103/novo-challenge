@@ -22,15 +22,14 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
 ## Why Vite?
 
-Vite is a faster build tool for modern project. Better the improve [https://vitejs.dev/]
+Vite is a faster build tool for modern project. Better the performance [https://vitejs.dev/]
 
 ## Testing 
 
-The testing was implemented using vitest, testing library and jest
+The testing was implemented used vitest and testing library allows has UI testing. Doing easier the integration tests
 
 ## Atomic Design 
 
