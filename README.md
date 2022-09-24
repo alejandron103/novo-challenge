@@ -34,3 +34,6 @@ The testing was implemented used vitest and testing library allows has UI testin
 ## Atomic Design 
 
 The atomic design allows build scalable and maintainable applications. re-use the dynamic components
+
+## files structures
+In components folder are all re-usables components developed and those could be used when be required. 

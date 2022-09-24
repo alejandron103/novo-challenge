@@ -1,12 +1,13 @@
 nav {
     background-color: $white;
     display: block;
-    padding: 0 3%;
+    padding: 0 2%;
     box-shadow: -1px 1px 5px -1px rgb(0 0 0 / 10%);
 
     li{
         padding: 10px 0;
         cursor: pointer;
+        font-weight: 600;
     }
 }
 
@@ -60,6 +61,7 @@ nav {
             border: none;
         }
         &:hover{
+            background-color: rgba($blue-main-color , 0.1);
             & > ul {
                 opacity: 1;
             }

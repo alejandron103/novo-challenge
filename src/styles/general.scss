@@ -31,6 +31,7 @@ ul{
     color: $white;
     font-size: calculateRem(12px);
     border-top: 2px solid $blue-light;
+    font-weight: 600;
 }
 
 @font-face {
@@ -41,7 +42,7 @@ ul{
 
 @font-face {
     font-family: GothamMedium;
-    src: url(./fonts/GothamMedium_1.woff);
+    src: url(./fonts/GothamMedium.woff);
 }
 
 @font-face {

@@ -3,12 +3,12 @@
 .Header{
     .Logo{
         fill: $white;
-        font-size: calculateRem(25px);
+        font-size: calculateRem(23px);
         font-family: 'GothamBold';
     }
     &__top{
         display: flex;
-        padding: 0 3%;
+        padding: 0 2%;
         height: 56px;
         align-items: center;
         justify-content: space-between;
@@ -19,10 +19,12 @@
 .UserMenu{
     display: flex;
     align-items: center;
+    margin-right: 40px;
     &__name{
         color: $white;
         margin-right: 25px;
-        font-family: $font-medium;
+        font-family: $font-bold;
+        font-size: calculateRem(13px);
     }
     &__icon{
         font-weight: bold;
